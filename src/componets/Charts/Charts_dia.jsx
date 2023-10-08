@@ -58,10 +58,11 @@ export default function Charts_dia() {
                 </div>
             </div>
             <div className="d-flex align-items-center" >
-                <AreaChart width={550} height={250} data={data} margin={{ top: 10, right: 30, left: 0, bottom: 0, }}>
-                    <CartesianGrid strokeDasharray="3 3" />
+                <AreaChart width={550} height={220} data={data} margin={{ top: 10, right: 30, left: 0, bottom: 0, }}>
+                    <CartesianGrid strokeDasharray="4 4"/>
                     <XAxis dataKey="name" />
                     <YAxis />
+                    <Tooltip/>
                     <Area type="monotone" dataKey="Matematica" stackId="1" stroke="#143A5E" fill="#143A5E" />
                     <Area type="monotone" dataKey="Letras" stackId="2" stroke="#FE9C15" fill="#FE9C15" />
                     <Area type="monotone" dataKey="Geografia" stackId="3" stroke="#9CA818" fill="#9CA818" />

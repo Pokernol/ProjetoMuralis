@@ -17,7 +17,7 @@ const data = [
 
     },
     {
-        name: 'fev',
+        name: 'Fev',
         Geografia: 24,
         Letras: 30,
         Matematica: 13,
