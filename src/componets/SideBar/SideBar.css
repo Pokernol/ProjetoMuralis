@@ -1,0 +1,72 @@
+@media(Max-width: 600px){
+    .side_size{
+        width: 120px;
+        transition: ease 0.5s;
+    }
+    .image_size{
+        width: 80px;
+        height: 80px;
+        transition: ease 0.5s;
+    }
+    .button_size{
+        width: 90px;
+        height: 38.5px;
+        font-size:15px;
+        transition: ease 0.5s;
+        justify-content: center;
+    }
+    .text_size{
+        font-size: 15px;
+        transition: ease 0.5s;
+    }
+    .hidden{
+        display: none;
+    }
+    .item_nav_color{
+        transition: ease 0.5s;
+    }
+}
+
+@media (min-width:601px){
+    .side_size {
+        width: 225px;
+        transition: ease 0.5s;
+    }
+    .image_size{
+        width: 150px;
+        height: 150px;
+        transition: ease 0.5s;
+    }
+    .button_size{
+        width: 100%;
+        height: 38.5px;
+        font-size:15px;
+        transition: ease 0.5s;
+    }
+    .item_nav_color{
+        text-align: center;
+        transition: ease 0.5s;
+    }
+}
+
+.b_example_divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b_example_vr {
+    flex-shrink: 0;
+    width: 0.5rem;
+    height: 100vh;
+}
+.item_nav_color{
+    background-color: #11375B;
+}
+
+.bg_color_nav{
+    background-color: #0D3357;
+}

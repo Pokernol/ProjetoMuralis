@@ -1,0 +1,11 @@
+@media (min-width:601px) {
+  .table{
+    width: 1050px;
+  }  
+}
+#root {
+  margin: 0;
+}
+.size_100{
+  width: 100%;
+}

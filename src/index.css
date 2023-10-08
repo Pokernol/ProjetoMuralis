@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+@media (min-width: 601px) {
+  .center{
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+@media (max-width: 600px) {
+  li{
+    width: 90px;
+  }
+}
