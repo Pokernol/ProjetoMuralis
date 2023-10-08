@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter, Input } from 'reactstrap';
-import './Modals.css'
+import './Modals.css';
 import directory from './img/icons8-directory.svg';
 
 function Modals(props) {
@@ -28,11 +28,19 @@ function Modals(props) {
     setCidadesSelecionadas(cidades[estadoSelecionado]);
   };
 
+  const handleButtonClick = () => {
+    const button = document.querySelector(".btn");
+    button.addEventListener("click", function() {
+      button.classList.remove("color_btn");
+      button.classList.add("color_btn_on");
+    });
+  };
+
   return (
     <div>
-      <Button className='bt_size item_nav_color d-flex' onClick={toggle}>
-      <img className='me-2' src={directory} alt=''/>
-      <span className='hidden'>Ingressantes</span>
+      <Button className='btn bt_size d-flex color_btn' onClick={toggle}>
+        <img className='me-2' src={directory} alt='' />
+        <span className='hidden'>Ingressantes</span>
       </Button>
       <Modal isOpen={modal} toggle={toggle} unmountOnClose={unmountOnClose}>
         <div className='bg_blue_title text-light'>
@@ -52,16 +60,26 @@ function Modals(props) {
             <option value="rio_de_janeiro">Rio de Janeiro</option>
             <option value="minas_gerais">Minas Gerais</option>
           </Input>
-          <Input className="mb-3" type="select" value={cidadesSelecionadas} onChange={(event) => setCidadesSelecionadas([event.target.value])}>
+          <Input
+            className="mb-3"
+            type="select"
+            value={cidadesSelecionadas}
+            onChange={(event) => setCidadesSelecionadas([event.target.value])}
+          >
             <option value="">Selecione a Cidade</option>
-            {cidadesSelecionadas.map((cidade) => ( <option key={cidade} value={cidade}> {cidade} </option>))}
+            {cidadesSelecionadas.map((cidade) => (
+              <option key={cidade} value={cidade}>
+                {" "}
+                {cidade}{" "}
+              </option>
+            ))}
           </Input>
         </ModalBody>
         <ModalFooter>
           <Button color="warning" outline size="sm" onClick={toggle}>
             Voltar
           </Button>{" "}
-          <Button color="success" outline onClick={toggle}>
+          <Button color="success" outline onClick={() => {toggle(); handleButtonClick();}}>
             Gravar
           </Button>
         </ModalFooter>

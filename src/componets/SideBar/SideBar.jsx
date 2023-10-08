@@ -25,7 +25,7 @@ function SideBar(props) {
           <Button className='button_size item_nav_color d-flex' href="#"><img className='me-2' src={home} alt=''/><span className='hidden'>Home</span></Button> 
         </NavItem>
         <NavItem>
-          <Modals to="/pagina" active className="active"/>
+          <Modals/>
         </NavItem>
       </Nav>
     </div>

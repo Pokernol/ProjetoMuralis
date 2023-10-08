@@ -34,7 +34,7 @@ function App() {
                   <th ><Charts_dia /></th>
                 </tr>
             </table>
-            <Card className='ms-5 mt-5 me-3 col-lg-3 col-md-6 col-sm-12 shadow_color_white' body color="light">
+            <Card className='ms-5 mt-5 me-3 col-3 shadow_color_white' body color="light">
               <Porcentagem/>
             </Card>
           </div>
