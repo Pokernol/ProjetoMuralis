@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import Calendario from '../Calendario/Calendario'
 
 const data = [
     {
@@ -45,19 +46,19 @@ export default function Charts_dia() {
             <div className='d-flex flex-column ms-5'>
                 <div className="d-flex align-items-center">
                     <div className="legend_box_mat me-1"></div>
-                    <h4>Matemática</h4>
+                    <h6>Matemática</h6>
                 </div>
                 <div className="d-flex align-items-center">
                     <div className="legend_box_let me-1"></div>
-                    <h4>Letras</h4>
+                    <h6>Letras</h6>
                 </div>
                 <div className="d-flex align-items-center">
                     <div className="legend_box_geo me-1"></div>
-                    <h4>Geografia</h4>
+                    <h6>Geografia</h6>
                 </div>
             </div>
             <div className="d-flex align-items-center" >
-                <AreaChart width={650} height={250} data={data} margin={{ top: 10, right: 30, left: 0, bottom: 0, }}>
+                <AreaChart width={550} height={250} data={data} margin={{ top: 10, right: 30, left: 0, bottom: 0, }}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="name" />
                     <YAxis />
@@ -66,7 +67,7 @@ export default function Charts_dia() {
                     <Area type="monotone" dataKey="Geografia" stackId="3" stroke="#9CA818" fill="#9CA818" />
                 </AreaChart>
             </div>
-            
+            <Calendario/>
         </div>
     )
 }
