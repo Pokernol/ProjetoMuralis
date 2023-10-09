@@ -4,6 +4,7 @@ import { Button} from 'reactstrap';
 import Modals from '../Modals/Modals';
 import './SideBar.css';
 import home from './img/icons8-home.svg';
+import user from './img/icons8-user.png';
 
 function SideBar(props) {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -13,7 +14,7 @@ function SideBar(props) {
     <div className='side_size bg_color_nav'>
       <Nav pills vertical className='p-3'>
         <NavItem className='mb-1 center'>
-          <img className='image_size' src='https://via.placeholder.com/150' alt=''/>
+          <img className='image_size mb-3' src={user} alt=''/>
         </NavItem>
         <NavItem className='mb-1 item_nav_color'>
           <b className='text-light text_size'>Silva Junior</b>
