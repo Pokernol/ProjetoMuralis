@@ -92,7 +92,11 @@ o React-Calendar é uma biblioteca de calendário para React que permite selecio
 
 - Modal
 - Seleção de Estado Cidade
-- Visualização de Incritos
+- Visualização de Incritos na Tabela
+
+
+https://github.com/Pokernol/ProjetoMuralis/assets/100011077/f36f7083-302b-4b14-9724-9b76f6e04d23
+
 
 
 ## Melhorias
@@ -113,7 +117,7 @@ Apesar de ter enfrentado algumas dificuldades, como juntar várias bibliotecas e
 
 ## Agradecimentos
 
-Agradeço aO Lama Dev por ser um professor incrivel, Gustavo amorim por ficar até tarde comigo, Thiago Antenor pelas dicas e Principalmente a muralis pela oportunidade e o desafio proposto.
+Agradeço ao <a href="https://www.youtube.com/@LamaDev" target="_blank">Lama Dev</a> por ser um professor incrivel, <a href="https://github.com/0GustavoAmorim" target="_blank">Gustavo amorim</a> por ficar até tarde comigo, <a href="https://github.com/thiagosilvaantenor" target="_blank">Thiago Antenor</a> pelas dicas e Principalmente a <a href="https://muralis.com.br/" target="_blank">Muralis</a> pela oportunidade e o desafio proposto.
 
 ## Autor
 
