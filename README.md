@@ -34,7 +34,7 @@ para Minas Gerais: Belo Horizonte, Monte Azul e Muzambinho.<br /><br />
    * [Descrição](#descrição)
    * [Índice](#índice)
    * [Instalação](#instalação)
-     * [React + vite](#react)
+     * [React + Vite](#react-+-vite)
      * [Bootstrap](#bootstrap)
      * [ReactStrap](#reactstrap)
      * [Recharts](#recharts)
@@ -78,7 +78,7 @@ O reactstrap é um conjunto de componentes React que utilizam o Bootstrap como b
 o Recharts é uma biblioteca de gráficos composta e construída com React e D3. O Recharts é usado para criar gráficos de linhas, gráficos de barras, gráficos de pizza, etc. Os componentes do Recharts são declarativos e independentes ou seja você pode criar seus próprios componentes personalizados e reutilizáveis ​​para criar gráficos personalizados. <br />
 1. Instale o Recharts usando o comando `npm install recharts`. <br /><br />
 
-#### React-Calendar
+#### React Calendar
 o React-Calendar é uma biblioteca de calendário para React que permite selecionar dias, meses, anos ou décadas <br />
 1. Instale o React Calendar usando o comando `npm i react-calendar`. <br /><br />
 
