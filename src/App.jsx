@@ -1,15 +1,14 @@
 import {Card} from 'reactstrap';
-import 'bootstrap/dist/css/bootstrap.css';
-import './App.css'
 import SideBar from './componets/SideBar/SideBar';
 import Header from './componets/Header/Header';
 import BlueInscritos from './componets/Inscritos/BlueInscritos';
 import WhiteInscritos from './componets/Inscritos/WhiteInscritos';
 import Charts from './componets/Charts/Charts'
 import Charts_dia from './componets/Charts/Charts_dia';
-import 'react-calendar/dist/Calendar.css';
 import Porcentagem from './componets/Porcentagem/Porcentagem';
-
+import 'bootstrap/dist/css/bootstrap.css';
+import 'react-calendar/dist/Calendar.css';
+import './App.css'
 
 function App() {
   return (

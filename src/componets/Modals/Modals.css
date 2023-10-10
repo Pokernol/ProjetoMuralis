@@ -22,7 +22,7 @@
     background-color: #4472C4;
 }
 .color_btn{
-    background-color: #11375B;
+    background-color: #11375B !important;
 }
 .color_btn_on{
     background-color: #ffffff;

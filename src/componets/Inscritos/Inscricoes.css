@@ -1,7 +1,7 @@
 .shadow_color_blue {
     -webkit-box-shadow: 10px 13px 25px 4px rgba(0,0,0,0.15); 
     box-shadow: 10px 13px 25px 4px rgba(0,0,0,0.15);
-    background-color: #0D3357;
+    background-color: #0D3357 !important;
 }
 .shadow_color_white{
     -webkit-box-shadow: 10px 13px 25px 4px rgba(0,0,0,0.15); 

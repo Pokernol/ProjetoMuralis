@@ -1,4 +1,4 @@
-import { Button, Card, CardTitle, CardText} from 'reactstrap'; 
+import { Card, CardTitle, CardText} from 'reactstrap'; 
 import './Inscricoes.css'
 
 function BlueInscritos({curso}){

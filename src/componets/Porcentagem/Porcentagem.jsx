@@ -1,5 +1,5 @@
 import React from "react";
-import { PieChart, Pie, Sector, Cell, Tooltip, LabelList } from "recharts";
+import { PieChart, Pie, Cell, Tooltip, LabelList } from "recharts";
 
 const data = [
     { name: "Matematica", value: 400, porcento: '40%' },

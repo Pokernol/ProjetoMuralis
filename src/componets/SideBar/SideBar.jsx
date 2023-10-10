@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import {Nav, NavItem, NavLink} from 'reactstrap';
-import { Button} from 'reactstrap';
+import {Nav, NavItem, Button} from 'reactstrap';
 import Modals from '../Modals/Modals';
 import './SideBar.css';
 import home from './img/icons8-home.svg';

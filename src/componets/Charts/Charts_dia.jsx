@@ -1,5 +1,4 @@
-import React, { PureComponent } from 'react';
-import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip} from 'recharts';
 import Calendario from '../Calendario/Calendario'
 
 const data = [
