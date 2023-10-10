@@ -20,9 +20,9 @@ function App() {
         <Header />
         <div className='me-5 ms-5'>
           <div className='row'>
-            <BlueInscritos />
-            <BlueInscritos />
-            <BlueInscritos />
+            <BlueInscritos curso="Matematica" />
+            <BlueInscritos curso="Letras" />
+            <BlueInscritos curso="Geografia"/>
             <WhiteInscritos />
           </div>
           <div className='row'>
