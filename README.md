@@ -34,16 +34,16 @@ para Minas Gerais: Belo Horizonte, Monte Azul e Muzambinho.<br /><br />
    * [Descrição](#descrição)
    * [Índice](#índice)
    * [Instalação](#instalação)
-     * [React + Vite](#react-+-vite)
+     * [React](#react)
      * [Bootstrap](#bootstrap)
      * [ReactStrap](#reactstrap)
      * [Recharts](#recharts)
      * [React-Calendar](react-calendar)
-   * [Stack Utilizada](#Stack)
-   * [Funcionalidades](#Funcionalidades)
-   * [Melhorias](#Melhorias)
-   * [Aprendizados](#Aprendizados)
-   * [Agradecimentos](#Agradecimentos)
+   * [Stack Utilizada](#stack-utilizada)
+   * [Funcionalidades](#funcionalidades)
+   * [Melhorias](#melhorias)
+   * [Aprendizados](#aprendizados)
+   * [Agradecimentos](#agradecimentos)
    * [Autor](#autor)
 
 =================
@@ -59,8 +59,8 @@ Nas Imagens que terão aqui será para melhor endentimento e compreenção do qu
 ## Instalação
 Antes de falar mais sobre o projeto é importante falar um pouco sobre as  dependências necessárias para instalar para o funcionamento do site em sua maquina, siga os seguintes passos:
 
-#### React + vite
-Pela agilidade resolvi utilizar o React + vite então para crear o projeto usei o create, ja em sua maquina é necessario somente intalar, e para rodar o projeto é necessario usar o 'npm run dev'. <br />
+#### React
+Pela agilidade na instalação e rodar o projeto resolvi utilizar o "React + vite", então para criar, instalar, e rodar o projeto é necessario usar os comandos abaixo. <br />
 1. Criar um novo projeto Vite usando o comando `npm create vite@latest`. <br />
 2. Instalar as dependências do projeto usando o comando `npm install`. <br />
 3. Iniciar o servidor de desenvolvimento usando o comando `npm run dev`. <br /><br />
