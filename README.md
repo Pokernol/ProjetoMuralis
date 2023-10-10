@@ -113,7 +113,7 @@ Apesar de ter enfrentado algumas dificuldades, como juntar várias bibliotecas e
 
 ## Agradecimentos
 
-Agradeço a Rafaella Ballerini, Guilherme Lima, Paulo Silveira e a Alura por todo conhecimento passado
+Agradeço aO Lama Dev por ser um professor incrivel, Gustavo amorim por ficar até tarde comigo, Thiago Antenor pelas dicas e Principalmente a muralis pela oportunidade e o desafio proposto.
 
 ## Autor
 
