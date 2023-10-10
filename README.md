@@ -117,7 +117,7 @@ Apesar de ter enfrentado algumas dificuldades, como juntar várias bibliotecas e
 
 ## Agradecimentos
 
-Agradeço ao <a href="https://www.youtube.com/@LamaDev" target="_blank">Lama Dev</a> por ser um professor incrivel, <a href="https://github.com/0GustavoAmorim" target="_blank">Gustavo amorim</a> por ficar até tarde comigo, <a href="https://github.com/thiagosilvaantenor" target="_blank">Thiago Antenor</a> pelas dicas e Principalmente a <a href="https://muralis.com.br/" target="_blank">Muralis</a> pela oportunidade e o desafio proposto.
+Agradeço ao <a href="https://www.youtube.com/@LamaDev" target="_blank">Lama Dev</a> por ser um professor incrivel, <a href="https://github.com/0GustavoAmorim" target="_blank">Gustavo amorim</a> por ficar até tarde comigo, <a href="https://github.com/thiagosilvaantenor" target="_blank">Thiago Antenor</a> pelas dicas, <a href="https://github.com/gabriel2004marques" target="_blank">Gabriel Marques</a> por ser um explicador e amigo incrivel e Principalmente a <a href="https://muralis.com.br/" target="_blank">Muralis</a> pela oportunidade e o desafio proposto.
 
 ## Autor
 
