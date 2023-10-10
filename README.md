@@ -38,7 +38,7 @@ para Minas Gerais: Belo Horizonte, Monte Azul e Muzambinho.<br /><br />
      * [Bootstrap](#bootstrap)
      * [ReactStrap](#reactstrap)
      * [Recharts](#recharts)
-     * [React-Calendar](calendar)
+     * [Calendar](calendar)
    * [Stack Utilizada](#stack-utilizada)
    * [Funcionalidades](#funcionalidades)
    * [Melhorias](#melhorias)
